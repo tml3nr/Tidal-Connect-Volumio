@@ -1,4 +1,5 @@
-# Tidal Connect Volumio setup instructions: Step by Step (10 Steps - Instructables)
+# Tidal Connect Volumio setup instructions
+# # # Step by Step (10 Steps - Instructables)
 
 This post will tell you how to install Tidal Connect on a Volumio for the Tidal App/Software Streaming HIFI/MQA.
 
