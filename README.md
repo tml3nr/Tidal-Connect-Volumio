@@ -9,14 +9,14 @@ To enable ssh, go http://volumio.local/DEV/ in your browser and click "ENABLE" u
 It doesn't report anything but you have just enabled the SSHd daemon. You can now login to your volumio device.
 
 #1./ Enable SSH Volumio
-http://volumio/dev
-user: volumio
-pass: volumio
+> http://volumio/dev
+> user: volumio
+> pass: volumio
 
 #2./ Add stretch repo to sources list & apt update
-sudo chmod -R 777 /etc/apt/sources.list
-echo "deb http://archive.raspbian.org/raspbian stretch main" >> /etc/apt/sources.list
-sudo apt update
+> chmod -R 777 /etc/apt/sources.list
+> echo "deb http://archive.raspbian.org/raspbian stretch main" >> /etc/apt/sources.list
+> sudo apt update
 
 #3./ Download package
 
