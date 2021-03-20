@@ -24,7 +24,7 @@ This post will tell you how to install Tidal Connect on a Volumio for the Tidal 
 Firstly download the Volumio image and extract it, then flash it to an SDCARD, you can get it here: https://volumio.org/get-started. Now insert that card into your Pi and wait something like 5 minutes. **Need setting your device DAC in Volumio**. Next, enable ssh so that you can setup Tidal Connect. To enable ssh, go http://volumio.local/DEV/ in your browser and click "ENABLE" under SSH. It doesn't report anything but you have just enabled the SSHd daemon. You can now login to your Volumio device with Putty.
 
 
-#1./ Enable SSH Volumio
+#1./ **Enable SSH Volumio**
 > http://volumio/dev
 > 
 > user: volumio
@@ -51,7 +51,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > ...
 ####
 ####
-#5./ Create working folder & Clone git repo
+#5./ **Create working folder & Clone git repo**
 > sudo mkdir /usr/tid
 >
 > cd /usr/tid
@@ -74,7 +74,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 ####
 ####
-#8./ Check your devices (DAC)
+#8./ **Check your devices DAC number**
 > /usr/tid/pa_devs/bin/pa-devs-get
 > 
 ####
