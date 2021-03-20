@@ -15,6 +15,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > pass: volumio
 > 
 ####
+####
 #2./ Add stretch repo to sources list & apt update
 > chmod -R 777 /etc/apt/sources.list
 > 
@@ -22,13 +23,16 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 > sudo apt update
 > 
-
+####
+####
 #3./ Install package
 > ...
-
+####
+####
 #4./ Install package needed dependencies
 > ...
-
+####
+####
 #5./ Create working folder & Clone git repo
 > sudo mkdir /usr/tid
 >
@@ -36,7 +40,8 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 >
 > sudo git clone https://github.com/shawaj/ifi-tidal-release
 > 
-
+####
+####
 #6./ Correct permissions
 > sudo chmod +x /usr/tid/play
 > 
@@ -44,18 +49,22 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 > sudo chmod +x /usr/tid/pa_devs/run.sh
 > 
-
+####
+####
 #7./ Deploy files
 > ./file-deploy.sh 
 > 
-
+####
+####
 #8./ Check your devices (DAC)
 > /usr/tid/pa_devs/bin/ifi-pa-devs-get
 > 
-
+####
+####
 #9./ Setting device in Tidal Connect Service
 > ...
-
+####
+####
 #10./ Start service and check on status
 > sudo systemctl daemon-reload
 >
@@ -66,5 +75,6 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > sudo systemctl status tidal-connect.service
 > 
 > 
-
+####
+####
 I am testing Tidal Connect Volumio now, the setup instructions not yet finish....
