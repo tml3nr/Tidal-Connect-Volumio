@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 This post will tell you how to install Tidal Connect on a Volumio for the Tidal App/Software Streaming HIFI/MQA.
 
-Firstly download the Volumio image and extract it, then flash it to an SDCARD, you can get it here: https://volumio.org/get-started. Now insert that card into your Pi and wait something like 5 minutes. **Need setting your device DAC in Volumio**. Next, enable ssh so that you can setup Tidal Conect. To enable ssh, go http://volumio.local/DEV/ in your browser and click "ENABLE" under SSH. It doesn't report anything but you have just enabled the SSHd daemon. You can now login to your Volumio device with Putty.
+Firstly download the Volumio image and extract it, then flash it to an SDCARD, you can get it here: https://volumio.org/get-started. Now insert that card into your Pi and wait something like 5 minutes. **Need setting your device DAC in Volumio**. Next, enable ssh so that you can setup Tidal Connect. To enable ssh, go http://volumio.local/DEV/ in your browser and click "ENABLE" under SSH. It doesn't report anything but you have just enabled the SSHd daemon. You can now login to your Volumio device with Putty.
 
 
 #1./ Enable SSH Volumio
@@ -34,7 +34,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 
 ####
 ####
-#2./ Add stretch repo to sources list & apt update
+#2./ **Add stretch repo to sources list & apt update**
 > chmod -R 777 /etc/apt/sources.list
 > 
 > echo "deb http://archive.raspbian.org/raspbian stretch main" >> /etc/apt/sources.list
@@ -43,11 +43,11 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 ####
 ####
-#3./ Install package
+#3./ **Install package**
 > ...
 ####
 ####
-#4./ Install package needed dependencies
+#4./ **Install package needed dependencies**
 > ...
 ####
 ####
@@ -60,7 +60,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 ####
 ####
-#6./ Correct permissions
+#6./ **Correct permissions**
 > sudo chmod +x /usr/tid/play
 > 
 > sudo chmod +x /usr/tid/bin/tidal_connect
@@ -69,7 +69,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 ####
 ####
-#7./ Deploy files
+#7./ **Deploy files**
 > ./file-deploy.sh 
 > 
 ####
@@ -79,11 +79,11 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 ####
 ####
-#9./ Setting device in Tidal Connect Service
+#9./ **Setting device in Tidal Connect Service**
 > ...
 ####
 ####
-#10./ Start service and check on status
+#10./ **Start service and check on status**
 > sudo systemctl daemon-reload
 >
 > sudo systemctl enable tidal-connect.service
