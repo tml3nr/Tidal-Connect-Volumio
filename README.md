@@ -36,4 +36,12 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 #9./ Setting device in Tidal Connect Service
 
 #10./ Start service and check on status
+> sudo systemctl daemon-reload
+>
+> sudo systemctl enable tidal-connect.service
+>
+> sudo systemctl restart tidal-connect.service
+>
+> sudo systemctl status tidal-connect.service
 
+I am testing Tidal Connect Volumio now, the setup instructions not yet finish....
