@@ -94,5 +94,8 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 > 
 ####
-####
+#### 
+
 I am testing Tidal Connect Volumio now, the setup instructions not yet finish....
+You can try setup instructions from https://github.com/shawaj/HiTide
+
