@@ -56,7 +56,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 >
 > cd /usr/tid
 >
-> sudo git clone https://github.com/shawaj/ifi-tidal-release
+> sudo git clone https://
 > 
 ####
 ####
