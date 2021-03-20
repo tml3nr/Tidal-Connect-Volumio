@@ -1,12 +1,9 @@
-Tidal Connect Volumio setup instructions: Step by Step (10 Steps - Instructables)
+# Tidal Connect Volumio setup instructions: Step by Step (10 Steps - Instructables)
 
 This post will tell you how to install Tidal Connect on a Volumio for the Tidal App/Software Streaming HIFI/MQA.
 
-Firstly download the volumio image and extract it, then flash it to an SDCARD, you can get it here.
+Firstly download the Volumio image and extract it, then flash it to an SDCARD, you can get it here. Now insert that card into your Pi and wait something like 5 minutes. Next, enable ssh so that you can setup the audio driver DAC. To enable ssh, go http://volumio.local/DEV/ in your browser and click "ENABLE" under SSH. It doesn't report anything but you have just enabled the SSHd daemon. You can now login to your Volumio device.
 
-Now insert that card into your Pi and wait something like 5 minutes. Next enable ssh so that you can setup the audio driver DAC. 
-To enable ssh, go http://volumio.local/DEV/ in your browser and click "ENABLE" under SSH. 
-It doesn't report anything but you have just enabled the SSHd daemon. You can now login to your volumio device.
 
 #1./ Enable SSH Volumio
 > http://volumio/dev
