@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Tidal Connect Volumio setup instructions
+# Tidal Connect Volumio 2.8x (Debian Jessie) setup instructions
 
 ###### Step by Step (10 Steps - Instructables)
 
