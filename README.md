@@ -13,8 +13,8 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > user: volumio
 > 
 > pass: volumio
-> > 
-
+> 
+####
 #2./ Add stretch repo to sources list & apt update
 > chmod -R 777 /etc/apt/sources.list
 > 
