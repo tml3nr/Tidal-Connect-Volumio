@@ -21,11 +21,16 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 > sudo apt update
 
-#3./ 
+#3./ Install package
 
 #4./ Install package needed dependencies
 
 #5./ Create working folder & Clone git repo
+> sudo mkdir /usr/tid
+>
+> cd /usr/tid
+>
+> sudo git clone https://github.com/shawaj/ifi-tidal-release
 
 #6./ Correct permissions
 > sudo chmod +x /usr/tid/play
