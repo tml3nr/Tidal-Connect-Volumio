@@ -57,7 +57,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 ####
 ####
 #8./ Check your devices (DAC)
-> /usr/tid/pa_devs/bin/ifi-pa-devs-get
+> /usr/tid/pa_devs/bin/pa-devs-get
 > 
 ####
 ####
