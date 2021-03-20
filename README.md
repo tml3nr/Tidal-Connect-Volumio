@@ -32,5 +32,5 @@ sudo apt update
 
 #9./ Setting device in Tidal Connect Service
 
-#10./ start service and check on status
+#10./ Start service and check on status
 
