@@ -26,7 +26,7 @@ sudo apt update
 
 #6./ Correct permissions
 
-#7./ deploy files
+#7./ Deploy files
 
 #8./ Check your devices (DAC)
 
