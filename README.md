@@ -13,7 +13,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > user: volumio
 > 
 > pass: volumio
-
+> > 
 
 #2./ Add stretch repo to sources list & apt update
 > chmod -R 777 /etc/apt/sources.list
@@ -24,10 +24,10 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 
 #3./ Install package
-> 
+> ...
 
 #4./ Install package needed dependencies
-> 
+> ...
 
 #5./ Create working folder & Clone git repo
 > sudo mkdir /usr/tid
@@ -54,7 +54,7 @@ Firstly download the Volumio image and extract it, then flash it to an SDCARD, y
 > 
 
 #9./ Setting device in Tidal Connect Service
-> 
+> ...
 
 #10./ Start service and check on status
 > sudo systemctl daemon-reload
